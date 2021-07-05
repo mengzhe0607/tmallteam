@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol li {
+    list-style: none;
+}
+
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.bander {
+
+    background-image: url(breadcrumb_bg.jpg);
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 85px
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-center h2 {
+    /* width: 1200px;
+    height: 30px; */
+    font-size: 45px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #252525;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.text-center ol {
+    display: inline-block;
+    padding: 10px 40px;
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.82);
+    border-radius: 50px;
+
+}
+
+.text-center ol li {
+    float: left;
+}
+
+.text-center ol li a {
+    display: inline-block;
+    color: #6d6c6c;
+}
+
+.wishlist-active::before {
+    display: inline-block;
+    padding-right: 0;
+    color: unset;
+    content: "";
+    height: 6px;
+    width: 6px;
+    background: #a1a1a1;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.wishlist-active {
+    color: #ff6000;
+}
+
+.gouwuche {
+    height: 600px;
+    /* background-color: red; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.table-header {
+    height: 63px;
+    /* list-style: none; */
+    text-align: center;
+    border-top: 1px solid #b6b6b6;
+    border-bottom: 1px solid #b6b6b6;
+}
+
+.table-header ol li {
+    float: left;
+    line-height: 63px;
+}
+
+.shangpin {
+    margin: 0 200px;
+}
+
+.jiage {
+    margin: 0 30px;
+}
+
+.shuliang {
+    margin: 0 50px;
+}
+
+.zongjia {
+    margin: 0 50px;
+}
+
+.kucun {
+    margin: 0 50px;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+    line-height: 180px;
+    float: left;
+    margin: 82px 5px;
+}
+
+.shangpin1,
+.shangpin2,
+.shangpin3 {
+    height: 180px;
+    /* text-align: center; */
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.shangpin1 img,
+.shangpin2 img,
+.shangpin3 img {
+    float: left;
+    margin: 20px 10px;
+}
+
+.product-name {
+    float: left;
+    margin: 50px 10px;
+}
+
+.product-name a {
+    color: #252525;
+    text-decoration: none;
+    margin-bottom: 5px;
+    font: 18px 'Josefin Sans', sans-serif;
+}
+
+.product-name a:hover {
+    color: #fd7e14;
+}
+
+.product-name p {
+    color: #7d7d7d;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.product-name span {
+    color: #666666;
+}
+
+.product-price {
+    float: left;
+}
+
+.product-price p {
+    margin-top: 80px;
+    margin-left: 88px;
+    color: #9e9e9e;
+}
+
+.product-quantity {
+    float: left;
+}
+
+.product-quantity input {
+    margin-top: 80px;
+    margin-left: 55px;
+}
+
+.product-subtotal {
+    float: left;
+    line-height: 180px;
+}
+
+.product-subtotal span {
+    margin-left: 72px;
+    color: #ff6000;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.product-stock {
+    float: left;
+    line-height: 180px;
+    padding-left: 86px;
+    color: #ff6000;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.product-add {
+    float: left;
+    padding-left: 104px;
+    padding-top: 30px;
+}
+
+.product-add span {
+    display: block;
+    font-size: 12px;
+    color: #898989;
+    margin-bottom: 5px;
+}
+
+.product-add a {
+    background: #ff6000;
+    text-decoration: none;
+    color: white;
+    padding: 19px 27px 15px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.product-add a:hover {
+    background: #343a40;
+}
+
+.limited {
+    /* height: 253px; */
+    background-image: url(limited_offer_bg.jpg);
+    padding: 73px 0;
+}
+
+.limited-center {
+    height: 107px;
+}
+
+.limited-center-left h2 {
+    color: #fff;
+    font-size: 34px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    float: left;
+    line-height: 107px;
+}
+
+.limited-center-left img {
+    float: left;
+    margin-left: 50px;
+}
+
+.limited-center-right {
+    float: right;
+
+}
+
+.limited-center-right a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    color: #ff6000;
+    background: #fff;
+    font-family: 'Rubik', sans-serif;
+    padding: 14px 26px;
+    margin-bottom: 12px;
+    display: inline-block;
+    letter-spacing: 23px;
+}
+
+.amount-info {
+    display: flex;
+    align-items: center;
+}
+
+.amount-info .upto {
+    display: inline-block;
+    transform: rotate(-90deg);
+    font-size: 12px;
+    font-weight: 500;
+    color: #ff6000;
+    letter-spacing: 2px;
+    margin-left: -13px;
+}
+
+.amount-info .amount {
+    background: #ff6000;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 12px 17px 8px 17px;
+}
+
+.amount-info .off {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
